@@ -14,7 +14,7 @@ Este es un trabajo práctico individual para la materia, que consiste en una lan
 - [x] Repositorio en GitHub creado.
 - [x] Proyecto subido al repositorio.
 - [x] Proyecto publicado en GitHub Pages.
-- [x] Enlace a GitHub Pages: [AGREGAR AQUÍ TU LINK]
+- [x] Enlace a GitHub Pages: https://github.com/FlavioBenitez
 
 ### Uso de Google Fonts:
 - [x] Fuente Roboto importada desde Google Fonts.
