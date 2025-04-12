@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio Personal</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Mi Portafolio</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Sobre mí -->
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Soy un Guardavidas, Doctor en Ciencias del Deporte y Estudiante de la Tecnicatura Desarrollo de Software apasionado por las tecnologías web. Mi misión es crear softwares que generen soluciones eficientes en el ambito deportivo.</p>
+      <img src="img/avatar.jpg" alt="Mi avatar" width="200">
+    </section>
+
+    <!-- Tarjetas -->
+    <section id="proyectos">
+      <h2>Mis Proyectos</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="img/proyecto1.jpg" alt="Proyecto 1">
+          <p>Landing page para un portfolio profesional usando HTML y CSS..</p>
+        </div>
+        <div class="card">
+          <img src="img/proyecto2.jpg" alt="Proyecto 2">
+          <p>Proyecto de Club Deportivo con C++</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>C++, Android Studio, My SQL</li>
+        <li>Window, Redes</li>
+        <li>Aprendiendo: HTML, CSS, JavaScript, Python</li>
+        <li>Hobbies: Gaming, Lectura Técnica, Deporte</li>
+      </ul>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label>Nombre: <input type="text" name="nombre"></label><br>
+        <label>Apellido: <input type="text" name="apellido"></label><br>
+        <label>Email: <input type="email" name="email"></label><br>
+        <label>Teléfono: <input type="tel" name="telefono"></label><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Películas favoritas -->
+    <section id="películas">
+      <h2>Películas Favoritas</h2>
+      <div class="pelicula">
+        <h3>The Matrix</h3>
+        <img src="img/matrix.jpg" alt="The Matrix" width="150">
+        <p>Un clásico de la ciencia ficción y el hacking.</p>
+      </div>
+      <div class="pelicula">
+        <h3>Inception</h3>
+        <img src="img/inception.jpg" alt="Inception" width="150">
+        <p>Explora la mente humana y la percepción de la realidad.</p>
+      </div>
+      <div class="pelicula">
+        <h3>Interstellar</h3>
+        <img src="img/interstellar.jpg" alt="Interstellar" width="150">
+        <p>Una historia emocionante sobre espacio, ciencia y sacrificio.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Conectá conmigo:</p>
+    <a href="#">LinkedIn</a> | <a href="#">GitHub</a> | <a href="#">Instagram</a>
+  </footer>
+
+</body>
+</html>
